@@ -20,5 +20,5 @@ while user == 'H' and chance < 3:
 
 if user == 'S':
   print(dealer_hand)
-  if sum(dealer_hand) <= 10:
+  if sum(dealer_hand) <= 10:   #Find a way to add the value of cards; convert the strings into int
     print(random.choice(DECK))
