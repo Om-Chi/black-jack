@@ -33,3 +33,9 @@ while user != "H" and chance == False:
 if user == "H":
     print(hit_me)
     print(dealer_hand)
+
+
+
+#Continue to ask if PLayer wants to Hit
+#Keep score
+#Convert face cards into numbers
