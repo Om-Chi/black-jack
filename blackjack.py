@@ -1,5 +1,18 @@
 import random
 
+class Card:
+    def __init__(self, face, suit, value):
+        self.face = face
+        self.suit = suit
+        self.value = value
+
+class Deck:
+    def __init__(self):
+        self.cards = []
+    def loadDeck(self):
+        pass
+        
+
 spades = {"Queen": 10, "Jack": 10, "King": 10, "Ace": 11}
 hearts = {"Queen": 10, "Jack": 10, "King": 10, "Ace": 11}
 clubs = {"Queen": 10, "Jack": 10, "King": 10, "Ace": 11}
